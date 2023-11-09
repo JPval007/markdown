@@ -1,12 +1,13 @@
 //IMPORT THE MARKDOWN COMPONENT
 import Markdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 
 function MarkDownRender(props) {
     let text = props.text;
 
     return (
         <>
-            <Markdown>{text}</Markdown>
+            <Markdown remarkPlugins={[remarkGfm]}>{text}</Markdown>
         </>
     );
 }
