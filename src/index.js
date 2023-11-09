@@ -2,9 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-// Avobe the bootstrap import you can override variables
+
+//This is the default bootstrap library
 import 'bootstrap/dist/css/bootstrap.css';
-// Import bootstrap here
+//This is your modified boostrap version
+// import './custom.scss';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
