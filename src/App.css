@@ -1,0 +1,8 @@
+.container-sm{
+    height: 90vh;
+}
+
+/* This height must be the remaining space from the element to the bottom of the page */
+.markdown-input {
+    flex: 1 1 auto;
+}
